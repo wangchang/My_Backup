@@ -1,0 +1,3 @@
+function active_check(element) { if(element.class==='current_page_item'){return true;}else{return false;} }
+function search_focus(element, default_value) { if(!active_check(element)){ if(element.value===default_value){element.value='';}element.setAttribute('class', 'search_bar_active'); } }
+function search_blur(element, default_value) { if(!active_check(element)){ if(element.value===''){element.setAttribute('class', 'search_bar_inactive');element.value=default_value;} } }

@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sixhours\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-06 12:41-0500\n"
+"PO-Revision-Date: 2012-04-09 10:17+0200\n"
+"X-Poedit-Language: Romanian\n"
+"X-Poedit-Country: Romania\n"
+"Language-Team: Web Geeks\n"
+"Last-Translator: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:9
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Acest post este protejată prin parolă. Introduceţi parola pentru vizualizarea comentariilor."
+
+#: comments.php:19
+msgid "No Responses"
+msgstr "Nu răspunsuri"
+
+#: comments.php:19
+msgid "One Response"
+msgstr "Unul Răspuns"
+
+#: comments.php:19
+msgid "Responses"
+msgstr "Răspunsuri"
+
+#: comments.php:19
+msgid "to"
+msgstr "pentru a"
+
+#: comments.php:42
+msgid "Comments are closed."
+msgstr "Comentariile sunt închise."
+
+#: footer.php:7
+msgid "Sixhours Theme by Caroline Moore"
+msgstr "Sixhours temă de Caroline Moore"
+
+#: footer.php:8
+msgid "Copyright"
+msgstr "Copyright"
+
+#: footer.php:9
+msgid "Powered by"
+msgstr "oferit de"
+
+#: footer.php:9
+msgid "WordPress"
+msgstr "WordPress"
+
+#: functions.php:8
+#: sidebar.php:8
+msgid "Right Sidebar"
+msgstr "Dreptul de bara laterală"
+
+#: functions.php:17
+msgid "Tabbed Navigation Menu"
+msgstr "Meniul de navigare cu file"
+
+#: index.php:17
+#: single.php:19
+msgid "by"
+msgstr "de"
+
+#: index.php:17
+#: index.php:28
+msgid "Permanent Link to"
+msgstr "Link permanent la"
+
+#: index.php:20
+#: page-nosidebar.php:27
+#: page.php:26
+#: single.php:23
+msgid "Read the rest of this entry"
+msgstr "Citeşte restul acestui intrare"
+
+#: index.php:23
+#: page-nosidebar.php:29
+#: page.php:28
+#: single.php:25
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: index.php:25
+#: single.php:27
+msgid "Tags:"
+msgstr "Tag-uri:"
+
+#: index.php:28
+msgid "Permalink"
+msgstr "Permalink"
+
+#: index.php:29
+#: single.php:30
+msgid "Posted in"
+msgstr "Postat în"
+
+#: index.php:30
+#: single.php:31
+msgid "Edit"
+msgstr "Editare"
+
+#: index.php:31
+#: single.php:32
+msgid "No Comments"
+msgstr "No Comments"
+
+#: index.php:31
+#: single.php:32
+msgid "Comment"
+msgstr "Comentariu"
+
+#: index.php:31
+#: single.php:32
+msgid "Comments"
+msgstr "Comentarii"
+
+#: index.php:40
+msgid "Older Entries"
+msgstr "Intrări mai vechi"
+
+#: index.php:41
+msgid "Newer Entries"
+msgstr "Intrări mai noi"
+
+#: index.php:46
+#: single.php:42
+msgid "Not Found"
+msgstr "Nu a fost găsit"
+
+#: index.php:47
+#: single.php:43
+msgid "Sorry, no posts matched your criteria."
+msgstr "Ne pare rău, nu de posturi potrivit criteriilor."
+
+#: page-nosidebar.php:36
+#: page.php:35
+msgid "Edit this entry"
+msgstr "Editaţi această intrare"
+
+#: searchform.php:8
+msgid "Search:"
+msgstr "Căutare:"
+
+#: searchform.php:10
+msgid "Go"
+msgstr "Du-te"
+
+#: sidebar.php:10
+msgid "Pages"
+msgstr "Pagini"
+
+#: sidebar.php:16
+msgid "Archives"
+msgstr "Arhivele"
+
+#: sidebar.php:22
+msgid "Meta"
+msgstr "Meta"
+

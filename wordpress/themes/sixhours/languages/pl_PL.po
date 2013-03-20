@@ -1,0 +1,383 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Sixhours v2.03\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-11-17 16:26:49+0000\n"
+"Last-Translator: pawel <pawel@dworniak.pl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: comments.php:63
+#@ sixhours
+msgid "Comments are closed."
+msgstr "Komentarze są wyłączone."
+
+#: content-page.php:17
+#: content-single.php:20
+#: content.php:25
+#: image.php:86
+#@ sixhours
+msgid "Pages:"
+msgstr "Artykuły:"
+
+#: content-page.php:18
+#: content-single.php:58
+#: content.php:58
+#: image.php:34
+#: image.php:100
+#@ sixhours
+msgid "Edit"
+msgstr "Edytuj"
+
+#: archive.php:49
+#: sidebar.php:14
+#@ sixhours
+msgid "Archives"
+msgstr "Archiwa"
+
+#: sidebar.php:21
+#@ sixhours
+msgid "Meta"
+msgstr "Meta"
+
+#: 404.php:16
+#@ sixhours
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Nie można odnaleźć takiej strony."
+
+#: 404.php:20
+#@ sixhours
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Nic tutaj nie znaleziono. Spróbuj funkcji wyszukiwania."
+
+#: archive.php:22
+#, php-format
+#@ sixhours
+msgid "Category Archives: %s"
+msgstr "Archiwum kategorii: %s"
+
+#: archive.php:25
+#, php-format
+#@ sixhours
+msgid "Tag Archives: %s"
+msgstr "Archiwum tagów: %s"
+
+#: archive.php:32
+#, php-format
+#@ sixhours
+msgid "Author Archives: %s"
+msgstr "Archiwum autorów: %s"
+
+#: archive.php:40
+#, php-format
+#@ sixhours
+msgid "Daily Archives: %s"
+msgstr "Archiwum dzienne: %s"
+
+#: archive.php:43
+#, php-format
+#@ sixhours
+msgid "Monthly Archives: %s"
+msgstr "Archiwum miesięczne: %s"
+
+#: archive.php:46
+#, php-format
+#@ sixhours
+msgid "Yearly Archives: %s"
+msgstr "Archiwum roczne: %s"
+
+#: comments.php:32
+#, php-format
+#@ sixhours
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: comments.php:39
+#@ sixhours
+msgid "Comment navigation"
+msgstr "Nawigacja po komentarzach"
+
+#: comments.php:40
+#@ sixhours
+msgid "&larr; Older Comments"
+msgstr "&larr; Wcześniejsze komentarze"
+
+#: comments.php:41
+#@ sixhours
+msgid "Newer Comments &rarr;"
+msgstr "Nowsze komentarze &rarr;"
+
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:26
+#: content.php:33
+#: content.php:43
+#@ sixhours
+msgid ", "
+msgstr ", "
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:34
+#, php-format
+#@ sixhours
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Tagi wpisu: %2$s. Dodaj go do <a href=\"%3$s\" title=\"Stały link do %4$s\" rel=\"bookmark\">zakładek</a>."
+
+#: content-single.php:36
+#, php-format
+#@ sixhours
+msgid "Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Dodaj do <a href=\"%3$s\" title=\"Stały link do %4$s\" rel=\"bookmark\">zakładek</a>."
+
+#: content-single.php:42
+#, php-format
+#@ sixhours
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Kategorie wpisu: %1$s, tagi wpisu: %2$s. Dodaj do <a href=\"%3$s\" title=\"Stały link %4$s\" rel=\"bookmark\">zakładek</a>."
+
+#: content-single.php:44
+#, php-format
+#@ sixhours
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Kategorie wpisu: %1$s. Dodaj do <a href=\"%3$s\" title=\"Stały link do %4$s\" rel=\"bookmark\">zakładek</a>."
+
+#: content.php:15
+#, php-format
+#@ sixhours
+msgid "Permalink to %s"
+msgstr "Stały link do %s"
+
+#: content.php:24
+#@ sixhours
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Czytaj dalej <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:37
+#, php-format
+#@ sixhours
+msgid "Posted in %1$s"
+msgstr "Kategorie wpisu: %1$s"
+
+#: content.php:48
+#, php-format
+#@ sixhours
+msgid "Tagged %1$s"
+msgstr "Tagi wpisu: %1$s"
+
+#: content.php:55
+#@ sixhours
+msgid "Leave a comment"
+msgstr "Dodaj swoją opinię"
+
+#: content.php:55
+#@ sixhours
+msgid "1 Comment"
+msgstr "Jeden komentarz"
+
+#: content.php:55
+#@ sixhours
+msgid "% Comments"
+msgstr "Komentarzy: %"
+
+#: footer.php:17
+#@ sixhours
+msgid "A Semantic Personal Publishing Platform"
+msgstr "A Semantic Personal Publishing Platform"
+
+#: footer.php:17
+#, php-format
+#@ sixhours
+msgid "Proudly powered by %s"
+msgstr "Dumnie oparty o %s"
+
+#: footer.php:19
+#, php-format
+#@ sixhours
+msgid "Theme: %1$s by %2$s."
+msgstr "Skórka: %1$s autorstwa %2$s."
+
+#: functions.php:62
+#@ sixhours
+msgid "Primary Menu"
+msgstr "Menu podstawowe"
+
+#: functions.php:76
+#@ sixhours
+msgid "Sidebar"
+msgstr "Pasek boczny"
+
+#: header.php:33
+#, php-format
+#@ sixhours
+msgid "Page %s"
+msgstr "Strona %s"
+
+#: header.php:61
+#@ sixhours
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:62
+#@ sixhours
+msgid "Skip to content"
+msgstr "Skocz do treści"
+
+#: image.php:24
+#, php-format
+#@ sixhours
+msgid "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr "Opublikowany <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> o <a href=\"%3$s\" title=\"Link do pełnego obrazka\">%4$s &times; %5$s</a> w <a href=\"%6$s\" title=\"Wróć do %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:38
+#@ sixhours
+msgid "&larr; Previous"
+msgstr "&larr; Poprzedni"
+
+#: image.php:39
+#@ sixhours
+msgid "Next &rarr;"
+msgstr "Kolejny &rarr;"
+
+#: image.php:92
+#, php-format
+#@ sixhours
+msgid "<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "<a class=\"comment-link\" href=\"#respond\" title=\"Dodaj komentarz\">Dodaj komentarz</a> lub posłuż się linkiem zwrotnym: <a class=\"trackback-link\" href=\"%s\" title=\"Link zwrotny dla tego wpisu\" rel=\"trackback\">Link zwrotny</a>."
+
+#: image.php:94
+#, php-format
+#@ sixhours
+msgid "Comments are closed, but you can leave a trackback: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr "Komentowanie jest wyłączone ale możesz wykorzystać linki zwrotne: <a class=\"trackback-link\" href=\"%s\" title=\"Link zwrotny do tego wpisu\" rel=\"trackback\">Link zwrotny</a>."
+
+#: image.php:96
+#@ sixhours
+msgid "Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">post a comment</a>."
+msgstr "Linki zwrotne są wyłączone ale zawsze możesz <a class=\"comment-link\" href=\"#respond\" title=\"Dodaj komentarz\">dodać komentarz</a>."
+
+#: image.php:98
+#@ sixhours
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Zarówno komentowanie jak i linki zwrotne są wyłączone."
+
+#: inc/template-tags.php:39
+#@ sixhours
+msgid "Post navigation"
+msgstr "Nawigacja po wpisach"
+
+#: inc/template-tags.php:43
+#@ sixhours
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:44
+#@ sixhours
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:49
+#@ sixhours
+msgid "<span class=\"meta-nav\">&laquo;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&laquo;</span> Starsze wpisy"
+
+#: inc/template-tags.php:53
+#@ sixhours
+msgid "Newer posts <span class=\"meta-nav\">&raquo;</span>"
+msgstr "Nowsze wpisy <span class=\"meta-nav\">&raquo;</span>"
+
+#: inc/template-tags.php:78
+#@ sixhours
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/template-tags.php:78
+#: inc/template-tags.php:101
+#@ sixhours
+msgid "(Edit)"
+msgstr "(Edytuj)"
+
+#: inc/template-tags.php:88
+#, php-format
+#@ sixhours
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">pisze:</span>"
+
+#: inc/template-tags.php:91
+#@ sixhours
+msgid "Your comment is awaiting moderation."
+msgstr "Twój komentarz oczekuje na decyzję moderatora."
+
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:99
+#, php-format
+#@ sixhours
+msgid "%1$s at %2$s"
+msgstr "%1$s o %2$s"
+
+#: inc/template-tags.php:126
+#, php-format
+#@ sixhours
+msgid "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> by <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "Opublikowany <a href=\"%1$\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"byline\"> przez <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$\" rel=\"author\">%7$s</a></span></span>"
+
+#: inc/template-tags.php:132
+#, php-format
+#@ sixhours
+msgid "View all posts by %s"
+msgstr "Zobacz wszystkie wpisy napisane przez: %s"
+
+#: no-results.php:14
+#@ sixhours
+msgid "Nothing Found"
+msgstr "Nic nie znaleziono"
+
+#: no-results.php:20
+#, php-format
+#@ sixhours
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Gotów do napisania pierwszego wpisu? <a href=\"%1$s\">Zacznij tutaj</a>."
+
+#: no-results.php:24
+#@ sixhours
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Nie znaleźliśmy nic odpowiadającego takim kryteriom. Zmień słowa i poszukaj raz jeszcze."
+
+#: no-results.php:29
+#@ sixhours
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Wygląda na to, że nie udało się znaleźć tego co potrzebujesz. Może wyszukiwanie pomoże?"
+
+#: search.php:17
+#, php-format
+#@ sixhours
+msgid "Search Results for: %s"
+msgstr "Wyniki wyszukiwania: %s"
+
+#: searchform.php:10
+#: searchform.php:12
+#@ sixhours
+msgid "Search"
+msgstr "Szukaj"
+
+#: searchform.php:11
+#@ sixhours
+msgid "Search &hellip;"
+msgstr "Szukaj &hellip;"
+

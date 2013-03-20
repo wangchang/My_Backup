@@ -1,0 +1,187 @@
+/* =Reset
+-------------------------------------------------------------- */
+
+caption, th, td {
+	text-align: right;
+}
+
+/* =Global
+----------------------------------------------- */
+
+/* Text elements */
+
+ul, ol {
+	margin: 0 3em 1.5em 0;
+}
+
+ul ul, ol ol, ul ol, ol ul {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+textarea {
+	padding-right: 3px;
+	padding-left: 0;
+}
+
+/* Alignment */
+.alignright {
+	float: right;
+	margin: 1.5em 0 1.5em 1.5em;
+}
+
+.alignleft {
+	float: left;
+	margin: 1.5em 1.5em 1.5em 0;
+}
+
+
+/* =Menu
+----------------------------------------------- */
+
+.main-navigation {
+	float: right;
+}
+
+.main-navigation ul {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.main-navigation li {
+	float: right;
+}
+
+.main-navigation a {
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	margin: 0 0 5px 10px;
+}
+
+.main-navigation ul ul {
+	float: right;
+	right: 0;
+	left: auto;
+}
+
+.main-navigation ul ul ul {
+	right: 100%;
+	left: auto;
+}
+
+.main-navigation ul ul li:last-child > a {
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+/* Small menu */
+.menu-toggle {
+	float: right;
+}
+
+
+/* =Header
+----------------------------------------------- */
+
+.site-title {
+	text-align: left;
+}
+
+.site-description {
+	float: left;
+	text-align: left;
+}
+
+
+/* =Layout
+----------------------------------------------- */
+
+#primary {
+	float: right;
+	margin: 0 0 0 -25%;
+}
+
+#content {
+	margin: 0 0 0 25%;
+}
+
+#secondary {
+	float: left;
+}
+
+
+/* =Media
+----------------------------------------------- */
+
+.wp-caption.aligncenter {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.wp-caption.alignright {
+	margin-left: 1.5em;
+	margin-right: auto;
+}
+
+.wp-caption.alignleft {
+	margin-right: 1.5em;
+	margin-left: auto;
+}
+
+
+/* =Navigation
+----------------------------------------------- */
+
+.site-content .nav-previous {
+	float: right;
+}
+
+.site-content .nav-next {
+	float: left;
+	text-align: left;
+}
+
+
+/* =Comments
+----------------------------------------------- */
+
+.commentlist ul.children {
+	margin: 0 1.5em 0 0;
+}
+
+li.comment li.comment {
+	padding: 1.5em .75em 0 0;
+}
+
+.comment-author .avatar {
+	float: right;
+	margin: 0 0 0 1.5em;
+}
+
+.comment-content {
+	margin: 1.5em 65px 0 0;
+}
+
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input {
+	float: left;
+}
+#cancel-comment-reply-link {
+	float: left;
+}
+
+
+/* =Widgets
+----------------------------------------------- */
+
+h1.widget-title {
+	text-align: left;
+}
+
+/* Search widget */
+
+/* Calendar widget */
+td#next {
+	text-align: left;
+}

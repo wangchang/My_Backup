@@ -1,0 +1,610 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Startup\n"
+"POT-Creation-Date: 2012-12-30 13:48-0700\n"
+"PO-Revision-Date: 2012-12-30 13:48-0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:4
+msgid "Not Found"
+msgstr ""
+
+#: ../404.php:6
+msgid "Nothing found for the requested page. Try a search instead?"
+msgstr ""
+
+#: ../archive.php:5
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:7
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:9
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../archive.php:11 ../functions.php:134
+msgid "Blog Archives"
+msgstr ""
+
+#: ../attachment.php:5
+#, php-format
+msgid "Return to %s"
+msgstr ""
+
+#: ../attachment.php:10
+#, php-format
+msgid " %s Previous"
+msgstr ""
+
+#: ../attachment.php:11
+#, php-format
+msgid "Next %s"
+msgstr ""
+
+#: ../attachment.php:28 ../entry-footer-single.php:20 ../entry-footer.php:18
+#: ../entry-meta.php:8 ../functions.php:243 ../functions.php:268
+#: ../page.php:14 ../templates/template-sidebar-left-left.php:15
+#: ../templates/template-sidebar-left-right.php:25
+#: ../templates/template-sidebar-left.php:9
+#: ../templates/template-sidebar-none.php:15
+#: ../templates/template-sidebar-right-right.php:15
+msgid "Edit"
+msgstr ""
+
+#: ../author.php:4
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../category.php:4
+msgid "Category Archives: "
+msgstr ""
+
+#: ../comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../comments.php:22
+msgid "Comments"
+msgstr ""
+
+#: ../comments.php:22 ../comments.php:43
+msgid "One"
+msgstr ""
+
+#: ../comments.php:22
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:43
+msgid "Trackbacks"
+msgstr ""
+
+#: ../comments.php:43
+msgid "Trackback"
+msgstr ""
+
+#: ../entry-content.php:8 ../entry-summary.php:4 ../page.php:13
+#: ../templates/template-sidebar-left-left.php:14
+#: ../templates/template-sidebar-left-right.php:24
+#: ../templates/template-sidebar-left.php:8
+#: ../templates/template-sidebar-none.php:14
+#: ../templates/template-sidebar-right-right.php:14
+msgid "Pages:"
+msgstr ""
+
+#: ../entry-footer-single.php:5
+#, php-format
+msgid ""
+"This article was posted in %1$s%2$s. Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>. Follow comments with "
+"the <a href=\"%5$s\" title=\"Comments RSS to %4$s\" rel=\"alternate\" type="
+"\"application/rss+xml\">RSS feed for this post</a>."
+msgstr ""
+
+#: ../entry-footer-single.php:7
+msgid " and tagged "
+msgstr ""
+
+#: ../entry-footer-single.php:12
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a Comment\">Post a "
+"Comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../entry-footer-single.php:14
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for post\" rel=\"trackback\">Trackback "
+"URL</a>."
+msgstr ""
+
+#: ../entry-footer-single.php:16
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a Comment\">Post a Comment</a>."
+msgstr ""
+
+#: ../entry-footer-single.php:18
+msgid "Both comments and trackbacks are closed."
+msgstr ""
+
+#: ../entry-footer.php:5
+#, php-format
+msgid "Also posted in %s"
+msgstr ""
+
+#: ../entry-footer.php:9
+msgid "Posted in "
+msgstr ""
+
+#: ../entry-footer.php:13
+#, php-format
+msgid "Also tagged %s"
+msgstr ""
+
+#: ../entry-footer.php:15
+msgid "Tagged "
+msgstr ""
+
+#: ../entry-footer.php:17
+msgid "Leave a comment"
+msgstr ""
+
+#: ../entry-footer.php:17
+msgid "1 Comment"
+msgstr ""
+
+#: ../entry-footer.php:17
+msgid "% Comments"
+msgstr ""
+
+#: ../entry-meta.php:3
+msgid "By"
+msgstr ""
+
+#: ../entry-meta.php:4
+#, php-format
+msgid "View all articles by %s"
+msgstr ""
+
+#: ../entry-meta.php:6
+msgid "Published"
+msgstr ""
+
+#: ../entry-summary.php:2
+#, php-format
+msgid "continue reading %s"
+msgstr ""
+
+#: ../entry.php:2
+#, php-format
+msgid "Read %s"
+msgstr ""
+
+#: ../footer.php:6
+#, php-format
+msgid "%1$s %2$s %3$s. All Rights Reserved."
+msgstr ""
+
+#: ../footer.php:6
+#, php-format
+msgid " Proudly Built with %1$s and %2$s."
+msgstr ""
+
+#: ../functions.php:11
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions.php:112
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: ../functions.php:113
+msgid "Your email is kept private."
+msgstr ""
+
+#: ../functions.php:114
+msgid "Post a Comment"
+msgstr ""
+
+#: ../functions.php:115
+#, php-format
+msgid "Post a Reply to %s"
+msgstr ""
+
+#: ../functions.php:120
+msgid "Home"
+msgstr ""
+
+#: ../functions.php:129
+msgid "Tag Page for "
+msgstr ""
+
+#: ../functions.php:130 ../functions.php:131 ../functions.php:132
+msgid "Archives for "
+msgstr ""
+
+#: ../functions.php:133
+msgid "Author Archives"
+msgstr ""
+
+#: ../functions.php:135
+msgid "Search Results"
+msgstr ""
+
+#: ../functions.php:136
+msgid "Page Not Found"
+msgstr ""
+
+#: ../functions.php:165
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: ../functions.php:173
+msgid "Left Sidebar Widget Area"
+msgstr ""
+
+#: ../functions.php:181
+msgid "Right Sidebar Widget Area"
+msgstr ""
+
+#: ../functions.php:194
+msgid "Page "
+msgstr ""
+
+#: ../functions.php:242
+#, php-format
+msgid "Posted %1$s at %2$s"
+msgstr ""
+
+#: ../functions.php:242
+msgid "Permalink to this comment"
+msgstr ""
+
+#: ../functions.php:242
+msgid "Permalink"
+msgstr ""
+
+#: ../functions.php:244
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions.php:251
+msgid "Reply"
+msgstr ""
+
+#: ../functions.php:252
+msgid "Login to reply."
+msgstr ""
+
+#: ../functions.php:264
+#, php-format
+msgid "By %1$s on %2$s at %3$s"
+msgstr ""
+
+#: ../functions.php:269
+msgid "Your trackback is awaiting moderation."
+msgstr ""
+
+#: ../nav-above.php:3 ../nav-below.php:3
+#, php-format
+msgid "older articles %s"
+msgstr ""
+
+#: ../nav-above.php:4 ../nav-below.php:4
+#, php-format
+msgid "%s newer articles"
+msgstr ""
+
+#: ../search.php:4
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../search.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: ../search.php:14
+msgid "Sorry, nothing matched your search. Please try again."
+msgstr ""
+
+#: ../tag.php:4
+msgid "Tag Archives: "
+msgstr ""
+
+#: ../setup/options.php:43 ../setup/options.php:55
+msgid "Startup Options"
+msgstr ""
+
+#: ../setup/options.php:57
+msgid "Options Saved"
+msgstr ""
+
+#: ../setup/options.php:59
+#, php-format
+msgid ""
+"Looking for even more features and advanced editing capabilities? "
+"%1$sUpgrade to StartupPro%2$s"
+msgstr ""
+
+#: ../setup/options.php:60
+#, php-format
+msgid ""
+"Thank you for choosing Startup and WordPress as the solution for building "
+"your website. If you need help please %1$svisit the support forum%2$s."
+msgstr ""
+
+#: ../setup/options.php:61
+#, php-format
+msgid "Manage previously uploaded images under the %1$sMedia%2$s tab."
+msgstr ""
+
+#: ../setup/options.php:64 ../setup/options.php:188
+msgid "Undo"
+msgstr ""
+
+#: ../setup/options.php:65 ../setup/options.php:189
+msgid "Clear All Settings"
+msgstr ""
+
+#: ../setup/options.php:66 ../setup/options.php:190
+msgid "Save Options"
+msgstr ""
+
+#: ../setup/options.php:68 ../setup/options.php:192
+#, php-format
+msgid ""
+"After clicking either %1$sClear All Settings%2$s or %1$sUndo%2$s you must "
+"then click %1$sSave Options%2$s to confirm."
+msgstr ""
+
+#: ../setup/options.php:68 ../setup/options.php:192
+#, php-format
+msgid ""
+"%1$sUndo%2$s only restores your settings to the previous saved state before "
+"saving again after clearing all settings."
+msgstr ""
+
+#: ../setup/options.php:73
+msgid "Turn On/Off Features"
+msgstr ""
+
+#: ../setup/options.php:73
+msgid "check to turn on"
+msgstr ""
+
+#: ../setup/options.php:76
+msgid "Social Profile Icons"
+msgstr ""
+
+#: ../setup/options.php:76 ../setup/options.php:91
+msgid "set further settings below in social profile settings"
+msgstr ""
+
+#: ../setup/options.php:79
+msgid "Site Description"
+msgstr ""
+
+#: ../setup/options.php:79
+msgid "set under settings > general from the main wp admin"
+msgstr ""
+
+#: ../setup/options.php:82
+msgid "Menu Search Field"
+msgstr ""
+
+#: ../setup/options.php:82
+msgid ""
+"search box appears on right side of menu - allows users to search the "
+"contents of your site"
+msgstr ""
+
+#: ../setup/options.php:85
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../setup/options.php:85
+msgid "shows your visitors where they are in relation to the homepage"
+msgstr ""
+
+#: ../setup/options.php:88
+msgid "Universal Slider"
+msgstr ""
+
+#: ../setup/options.php:88
+#, php-format
+msgid ""
+"important: you must create a slider first after installing %1$sNivo Slider "
+"for WordPress%2$s - for best results set slider to and prepare images at "
+"1000px wide [or whatever you have set your max display width to] and 200px "
+"or more high - all slides need to be consistent in size"
+msgstr ""
+
+#: ../setup/options.php:91
+msgid "Twitter Feed"
+msgstr ""
+
+#: ../setup/options.php:94
+msgid "Single Post Sharing"
+msgstr ""
+
+#: ../setup/options.php:94
+msgid "sets like, tweet and +1 buttons on single posts view"
+msgstr ""
+
+#: ../setup/options.php:97 ../setup/options.php:141
+msgid "Custom Styles"
+msgstr ""
+
+#: ../setup/options.php:97
+msgid "set further settings below"
+msgstr ""
+
+#: ../setup/options.php:102
+msgid "Image URLs"
+msgstr ""
+
+#: ../setup/options.php:102
+msgid ""
+"enter full image urls or click the \"Select/Upload Image\" button to select/"
+"upload an image from the Media Manager and then click \"Insert into Post\""
+msgstr ""
+
+#: ../setup/options.php:105
+msgid "Logo Image URL"
+msgstr ""
+
+#: ../setup/options.php:113
+msgid "Social Profile Settings"
+msgstr ""
+
+#: ../setup/options.php:113
+msgid "enter full urls"
+msgstr ""
+
+#: ../setup/options.php:116
+msgid "Facebook Profile URL"
+msgstr ""
+
+#: ../setup/options.php:116 ../setup/options.php:119 ../setup/options.php:122
+#: ../setup/options.php:125
+#, php-format
+msgid "example: %s"
+msgstr ""
+
+#: ../setup/options.php:119
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: ../setup/options.php:122
+msgid "LinkedIn Profile URL"
+msgstr ""
+
+#: ../setup/options.php:125
+msgid "Google+ Profile URL"
+msgstr ""
+
+#: ../setup/options.php:128
+msgid "Twitter Profile Username"
+msgstr ""
+
+#: ../setup/options.php:128
+msgid "username only - no @ needed"
+msgstr ""
+
+#: ../setup/options.php:133
+msgid "Google Fonts"
+msgstr ""
+
+#: ../setup/options.php:133
+#, php-format
+msgid ""
+"enter one google font from a %1$sselection of over five hundred%2$s, use "
+"proper capitalization and %3$s for spaces, example: %4$s."
+msgstr ""
+
+#: ../setup/options.php:133
+#, php-format
+msgid ""
+"Then use in either the headers font style as %1$s or custom css area below, "
+"example: %2$s"
+msgstr ""
+
+#: ../setup/options.php:136
+msgid "Google Font One"
+msgstr ""
+
+#: ../setup/options.php:141
+#, php-format
+msgid "no %1$s for colors or %2$s or %3$s for sizes"
+msgstr ""
+
+#: ../setup/options.php:144
+msgid "Navigation Menu Background Color"
+msgstr ""
+
+#: ../setup/options.php:147
+msgid "Navigation Menu Dropdown Opacity Level"
+msgstr ""
+
+#: ../setup/options.php:147
+#, php-format
+msgid "default is %1$s - %2$s is fully transparent and %3$s is fully solid"
+msgstr ""
+
+#: ../setup/options.php:150
+msgid "Body Text Color"
+msgstr ""
+
+#: ../setup/options.php:153
+msgid "Link Color"
+msgstr ""
+
+#: ../setup/options.php:153
+#, php-format
+msgid ""
+"will not universally change %1$s all %2$s link colors - use custom css for "
+"in-depth style management"
+msgstr ""
+
+#: ../setup/options.php:156
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../setup/options.php:159
+msgid "Page/Post Paragraph Font"
+msgstr ""
+
+#: ../setup/options.php:162
+msgid "Page/Post Paragraph Font Size"
+msgstr ""
+
+#: ../setup/options.php:165
+msgid "Page/Post Paragraph Font Color"
+msgstr ""
+
+#: ../setup/options.php:168
+msgid "Page/Post Paragraph Link Font"
+msgstr ""
+
+#: ../setup/options.php:171
+msgid "Page/Post Paragraph Link Font Size"
+msgstr ""
+
+#: ../setup/options.php:174
+msgid "Page/Post Paragraph Link Font Color"
+msgstr ""
+
+#: ../setup/options.php:177
+msgid "Headers Font"
+msgstr ""
+
+#: ../setup/options.php:180
+msgid "Headers Color"
+msgstr ""
+
+#: ../setup/options.php:183
+msgid "Headers Link Color"
+msgstr ""
