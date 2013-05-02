@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "Python类中的特殊方法"
 date: 2012-12-27 16:21
@@ -62,8 +62,73 @@ categories:
 
 ##工厂方法factory
 
+##属性方法property
+属性方法property其实是一个python内置函数，其主要作用就是管理类中的一个属性。python的手册上说的很好了。首先我们来看看作为内置函数的使用方法：
+
+    函数原型：
+    property([fget[, fset[, fdel[, doc]]]])
+    fget用于获得属性值，fset就是设置值，fdel就是删除值。
+
+最通常的用法就是用property函数来管理类中某个属性。
+
+    class C(object):
+        def __init__(self):
+            self._x = None
+
+        def getx(self):
+            return self._x
+        def setx(self, value):
+            self._x = value
+        def delx(self):
+            del self._x
+        x = property(getx, setx, delx, "I'm the 'x' property.")
+
+这样的话，我们就用一个类中的属性x来管理了类中的另一个属性_x，比如，c是类C的一个实例，那么：
+
+* c.x就会调用到getx()方法
+* c.x = ???就会调用到setx()方法
+* del c.x 就会调用到delx()方法
+
+这样用的好处就是因为在调用函数，可以做一些检查。如果没有严格的要求，直接使用实例属性可能更方便。
+
+接下来，如果把property()函数用成一个装饰器@，那么就会把一个属性变为一个只读属性（相应于增加了getter方法）：
+
+    class Parrot(object):
+        def __init__(self):
+            self._voltage = 100000
+
+        @property
+        def voltage(self):
+            """Get the current voltage."""
+            return self._voltage
+
+可以看到，这只是用property装饰成了只读属性，那么更改和删除的呢？
+
+    class C(object):
+        def __init__(self):
+            self._x = None
+
+        @property
+        def x(self):
+            """I'm the 'x' property."""
+            return self._x
+
+        @x.setter
+        def x(self, value):
+            self._x = value
+
+        @x.deleter
+        def x(self):
+            del self._x
+
+这是一个典型使用例子，效果呢就和最开始使用property()函数效果是一样的。
+
 ##参考文章
 下面第一篇文章虽然看懂了代码，但是还是不是很明白类方法在这里面起了个什么作用的。
+
+<http://docs.python.org/2.7/library/functions.html?highlight=property#property>
+
+<http://chen.junchang.blog.163.com/blog/static/63445192012816104645974/>
 
 <http://besteam.im/blogs/article/71/>
 
